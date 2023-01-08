@@ -9,7 +9,11 @@ Big-O gösterimini yazınız.
 
 Merge Sort'a göre ayıracağımız için ortadan 2 ye böldük
  16,21,11   8,12,22 oldu tekrar 2 ye bölüyoruz
+ 
+ 
  16,21  11        8,12   22     Tam ikiye bölünemeyeceği için böyle aldık 11 ve 22 ile işimiz kalmadı tekrar 2 ye böldük
+ 
+ 
  16   21   11       8  12  22   Bu sefer tüm sayılar ayrı ayrı ayrılmış oldu sıra combine kısmına geldi. 3'ü arasında hangisi daha küçükse onu sola büyüğünü sağa yazacağız
  11,16,21       8,12,22       combine işlemi yapıldı bu sefer 2 grubun en solundaki yani en küçük elemanlarını karşılaştıracağız bu şekilde küçükten büyüğe sıralama yapabileceğiz
 8<11 bu yüzden 8 sola 11 sağa yazılır, artık bu sayılarla bi işimiz kalmadı
