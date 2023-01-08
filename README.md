@@ -5,6 +5,8 @@ Proje 2
 
 Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 Big-O gösterimini yazınız.
+
+
 Merge Sort'a göre ayıracağımız için ortadan 2 ye böldük
  16,21,11   8,12,22 oldu tekrar 2 ye bölüyoruz
  16,21  11        8,12   22     Tam ikiye bölünemeyeceği için böyle aldık 11 ve 22 ile işimiz kalmadı tekrar 2 ye böldük
